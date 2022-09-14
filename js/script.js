@@ -120,10 +120,7 @@ var swiper = new Swiper(".reviews-slider", {
   grabCursor:true,
   loop:true,
   centeredSlides: true,
-  autoplay: {
-    delay: 9500,
-    disableOnInteraction: false,
-  },
+
   breakpoints: {
     0: {
       slidesPerView: 1,

@@ -6,15 +6,17 @@
 <title>contact Page</title>
     
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="css/style.css"/>
 
-    <style>
-    .mySlides {display:none;}
-    </style>
+  <style>
+  .mySlides {display:none;}
+  </style>
 
 <style>
-    body {
-
-     
+    body { 
       color: rgb(255, 255, 255);
       height: auto;
       width: auto;
@@ -54,9 +56,6 @@
 .button:hover {opacity: 1}
   </style>
 
- 
-  </style>
-
 
 
 </head>
@@ -85,40 +84,24 @@
     <div class="container-contact1">
       
             <img src="img/img-01.png" alt="IMG" >
-        
-        <form class="contact1-form validate-form">
+         <!-- Form -->
+        <form class="contact1-form validate-form" action="./index.html">
             <span class="contact1-form-title">
                 Get in touch
             </span>
-
-            <div class="wrap-input1 validate-input" data-validate = "Name is required">
                 <input class="input1" type="text" name="name" placeholder="Name">
-                <span class="shadow-input1"></span>
-            </div>
-
-            <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                
                 <input class="input1" type="text" name="email" placeholder="Email">
-                <span class="shadow-input1"></span>
-            </div>
-
-            <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+            
                 <input class="input1" type="text" name="subject" placeholder="Subject">
-                <span class="shadow-input1"></span>
-            </div>
 
-            <div class="wrap-input1 validate-input" data-validate = "Message is required">
-                <textarea class="input1" name="message" placeholder="Message"></textarea>
-                <span class="shadow-input1"></span>
-            </div>
+                <textarea class="input1" name="message" placeholder="Message"></textarea>  
 
+              <input type="submit" value="Send Message" class="btn btn-primary">
+              <div class="submitting"></div>
            
-                    <span class="button">
-                        Send Email
-                    </span>
-                        
         </form>
+         <!-- Form End-->
     </div>
-
-
 
 </html>
